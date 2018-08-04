@@ -11,7 +11,7 @@ namespace WeekTwo
         /// <param name="a">actual array passed</param>
         /// <param name="k">times to rotate</param>
         /// <returns>final array of rotated array</returns>
-        public int[] FirstChallenge(int[] a, int k)
+        public int[] RotateArray(int[] a, int k)
         {
             int[] c = new int[a.Length];
             int[] b = new int[a.Length];
@@ -52,7 +52,7 @@ namespace WeekTwo
         /// </summary>
         /// <param name="a">actual array that is passed</param>
         /// <returns>integer of unpaired digit</returns>
-        public int SecondChallenge(int[] a)
+        public int FindUnpairedDigit(int[] a)
         {
             int c = 0;
             Dictionary<int, int> countDigits = new Dictionary<int, int>();
@@ -85,7 +85,7 @@ namespace WeekTwo
         /// <param name="y">total distance to travel</param>
         /// <param name="z">distance the frog can jump once</param>
         /// <returns>total jump count</returns>
-        public int ThirdChallenge(int x, int y, int z)
+        public int FrogJump(int x, int y, int z)
         {
             int jumpCount = 0;
             int totalDistanceCovered = x;

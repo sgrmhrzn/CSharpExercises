@@ -55,9 +55,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Challenge\Challenge.csproj">
+    <ProjectReference Include="..\DigitsExercise\DigitsExercise.csproj">
+      <Project>{60BEF247-C31D-4E6E-BB0D-CC70B34EB1C8}</Project>
+      <Name>DigitsExercise</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StringsExercise\StringsExercise.csproj">
       <Project>{E21B8D89-538A-4A90-89C8-7DC6C9293017}</Project>
-      <Name>Challenge</Name>
+      <Name>StringsExercise</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

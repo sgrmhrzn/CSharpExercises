@@ -15,7 +15,7 @@ namespace ConsoleApp
             int[] A = new int[5] { 3, 8, 9, 7, 6 };
             int[] expected = new int[5] { 9, 7, 6, 3, 8 };
 
-            var result = solution.FirstChallenge(A, 3);
+            var result = solution.RotateArray(A, 3);
 
             foreach (var r in result)
             {
